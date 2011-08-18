@@ -1,0 +1,15 @@
+This is a simulator of the Monty Hall Problem I made to demonstrate it to my girlfriend.
+It's a logic problem I've always found particularly interesting,
+and it's fun to see it run a few thousand times to get hard numbers on it.
+game_many.py is the "fun" one, walking you through the problem,
+and keeping statistics on your past games. It's all in command line.
+As you play through enough games, the statistics should suggest
+that switching doors leads to a win twice as often as staying.
+
+game_auto.py does all the playing for you. You type in a number
+of games you want to simulate, and it will run through them,
+randomly deciding to stay or switch, and then produce the results.
+For large enough numbers (~10,000), you will almost certainly
+see that switching wins 66% to staying's 33%.
+
+Have fun!
